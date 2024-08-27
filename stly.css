@@ -1,0 +1,82 @@
+header{ 
+    widht: 100%;
+    height: 70px;
+
+    background-color: #101010;
+    
+    box-shadow: 0px; 5px 20px #000;
+    
+    padding: 10px;
+
+    display: flex;
+
+    aling-items: center; 
+    
+    flex-wrap: wrap;
+ 
+    justify-content: space-between;
+}
+
+.menu{ 
+    list-style: nome;
+    
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.menu li a{
+
+   color: #fff;
+  
+   display: block;
+   text-decoration: nome;
+
+   padding: 10px 20px 10px 20px; 
+
+   border-radius: 10 px;
+
+   margin-left: 10 px;
+}
+
+.menu li a:hover{
+      color: #fff;
+
+   display: block;
+   text-decoration: nome;
+
+   margin-left: 10 px;
+}
+
+.logo{
+   widht: 45px;
+   height: 45px;
+   
+   border-radius:10px
+   
+   bahckground-color: #ccc;
+}
+
+h1{
+    color: #fff
+    text-aling: center;
+
+    margin-top: 20px
+}
+
+.container{
+    max-width: 1200px;
+    maring: 0 auto;
+    
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.container div{
+    flex: 1 1 350px; 
+   
+   margin: 10px;
+}
+img{
+    width: 100%;
